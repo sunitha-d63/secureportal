@@ -1,0 +1,39 @@
+# Virtual environment (NEVER push to GitHub)
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local database files (SQLite – even if you use MySQL/PostgreSQL)
+db.sqlite3
+*.sqlite3
+
+# Django collected static files
+staticfiles/
+media/
+
+# VSCode / PyCharm / IDE files
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Node Modules (if React or JS build used)
+node_modules/
+build/
+dist/
+
+# Environment files (VERY IMPORTANT)
+.env
+*.env
+.env.local
+
+# Logs
+*.log
