@@ -23,7 +23,7 @@ DEBUG = False
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
-    'your-render-app-name.onrender.com',  # Change this after deployment
+    'secureportal-3k52.onrender.com',
 ]
 
 INSTALLED_APPS = [
